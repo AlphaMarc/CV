@@ -1,0 +1,220 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.0 (5/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\begin{document}
+
+\header{Marc}{ Allaire}{Ingénieur Informatique et Réseau | Management Stratégique} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\includegraphics[scale=.6]{PHOTOCV.jpg}
+\section{contact}
+\href{mailto:marc.allaire@live.fr}{marc.allaire@live.fr}
+\href{http://www.linkedin.com/pub/marc-allaire/62/79/936}{LinkedIn://marc-allaire}
+68 rue Victor Billon
+33\,110, Le Bouscat
+France
++33\,6\,12\,64\,97\,84
+\section{Langues}
+Français
+Anglais courant
+Espagnol scolaire
+\section{Programmation}
+Java, JavaEE
+Haskell, 
+C, ADA, VHDL
+\LaTeX, MS Word, Powerpoint
+UNIX, Linux, Windows
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Formation}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2009--2014}
+{Master {\normalfont en Ingénierie Informatique et Réseaux}}
+{INSA, Toulouse}
+{\emph{Majeure Réseaux et Télécommunication}\\
+%\begin{itemize}
+%\item Développement logiciel et conception de systèmes complexes en utilisant différents paradigmes de programmation (Object, Fonctionnelle, Impératif)
+%\item Connaissance approfondie des réseaux informatiques, des systèmes distribués et communiquants, mise en application des contraintes de sécurité, de qualité de service et de temps réel
+Formation Généraliste, curiosité, envie d'apprendre et facilité d'assimilation de nouveaux concepts
+%\end{itemize}
+\vspace{.2cm}}
+%------------------------------------------------
+\entry
+{2012--2014}
+{Master {\normalfont en Management Stratégique}}
+{IAE, Toulouse}
+{\emph{Majeure Stratégie des industries innovantes}\\
+%\begin{itemize}
+Approche multidisciplinaire de l'innovation et de la stratégie d'entreprise (droit, finance, marketing, management)
+%\item Juste équilibre entre expérience pratique sur des cas concrets et connaissance théorique
+%\end{itemize} 
+\vspace{.2cm}}
+%------------------------------------------------
+\entry
+{Spring 2012}
+{Bachelor of Science {\normalfont en Computer Science}}
+{University of Arizona, Tucson}
+{\vspace{-10pt}}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Expérience}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2014 -- 6 mois}
+{NICTA, \textsc{Software Systems}}
+{Brisbane, Australie}
+{\emph{Extension d'un outil de conformité des process d'entreprise et revision de la stratégie produit}
+\begin{itemize}
+\item Reprise de code et développement d'extensions dans plusieurs langages (Java, Scala, Groovy, JavaScript)
+%\item Auto formation sur la théorie qui soutient le logiciel à partir de la litérature disponible 
+\item Mise en application des modèles de stratégie et marketing pour revoir la mise sur le marché du logiciel
+\end{itemize}
+}
+
+\entry
+{2013 -- 4 mois}
+{\textsc{Airbus Defence and Space}}
+{Toulouse, France}
+{\emph{Stage Développement d'une interface pour simulateur satellite}
+\begin{itemize}
+\item Application des principes de la programmation objet sur une application professionnelle en partant de zéro
+\item Auto apprentissage de JavaFX et utilisation intensive pour le design de l'interface utilisateur
+%\item Optimisation du code pour le traitement de grosses quantité de données en temps réel
+\end{itemize}
+}
+%------------------------------------------------
+\entry
+{2013 -- 4 mois}
+{INSA Toulouse}
+{Toulouse, France}
+{\emph{Développement d'un emulateur de trafic dans un ESB pour Thales}
+\begin{itemize}
+%\item Etude comparative des solutions de virtualisation open-source du marché
+\item Développement d'application orientée service et Middleware (Web Service, BPEL, XSLT) sur GlassFish
+\item Connaissance théorique approfondie des middleware et ESB pour applications d'entreprise distribuées
+\end{itemize}}
+%-----------------------------------------------
+\entry
+{2012 -- 4 mois}
+{INSA Toulouse}
+{Toulouse, France}
+{\emph{Projet tutoré Maquete de cloud et sondes de sécurité}
+\begin{itemize}
+%\item Etude comparative des solutions de virtualisation open-source du marché
+\item Déploiement d'une maquette de cloud avec OpenStack et Xen sur 3 machines en réseau
+\item Déploiement de sondes de sécurité (Snort, OSSEC) selon différentes politiques
+\end{itemize}}
+%------------------------------------------------
+%\entry
+%{3 mois}
+%{INSA Toulouse}
+%{Toulouse, France}
+%{\emph{Projet gestion de la QoS pour des appels SIP dans un domaine DiffServ}
+%\begin{itemize}
+%%\item Definition et implementation du réseau IP avec des routeurs Cisco et Linux
+%\item Mise en place de VPN l2 et l3 et gestion des ressources avec l'utilitaire Linux TC
+%\item Modification d'un proxy SIP open source en Java pour intégrer nos mécanismes de QoS
+%\end{itemize}}
+
+
+\end{entrylist}
+
+
+%-----------------------------------------------------------------------------------------
+%    ATOUTS MAJEURS
+%-----------------------------------------------------------------------------------------
+\section{Atouts Majeurs}
+
+
+\textbf{\large Programmation~:} 
+\begin{itemize}[noitemsep,nolistsep]
+\item \textbf{Orientée Objet} : Maitrise des concepts de conception et de programmation objet, implémenté en Java
+\item \textbf{Fonctionelle} : Apprentissage du Haskell et des bases théoriques sur mon temps libre
+\item \textbf{Middleware et SOA} : Développement d'applications orientée service (OpenESB, SOAP, XML, WebServices)
+%\item \textbf{Impérative} : Développement en C sur microcontrolleur, assembleur MIPS et VHDL sur FPGA
+\item \textbf{Version Control} : Développement de projets avec GIT, SVN et CVS
+\item \textbf{Cloud} : Déploiement d'infrastructure virtualisée, Connaissances théoriques
+\item \textbf{Autres} : Connaissances en sécurité des applications, Bases de données relationelles et SQL
+
+
+\end{itemize}
+\textbf{\large Réseaux~:} 
+\begin{itemize}[noitemsep,nolistsep]
+\item \textbf{Locaux} : Déploiement, architecture et protocoles de réseau local filaire et sans-fil IPv4 et IPv6, sécurité des réseaux
+\item \textbf{Grande distance} : Conaissance approfondie des protocoles de routage de l'internet (RIP, OSPF, IGRP, BGP)\\
+Technologies et protocoles des réseaux grande distance (ATM, VPN, MPLS)
+\item \textbf{Matériel} : Expérience pratique sur des routeurs Cisco et Linux, connaissances des utilitaires réseaux sur Linux
+\end{itemize}
+\textbf{\large Stratégie} :
+\begin{itemize}[noitemsep,nolistsep]
+\item \textbf{Théorie \& Pratique} : Compétences sur des sujets stratégiques et de gestion, Mise en pratique des modèles théoriques
+\item \textbf{Double compétence} : Vision globale du processus d'innovation, Recul stratégique sur le travail d'ingénieur
+\end{itemize}
+\textbf{\large Personnel~:} 
+\begin{itemize}[noitemsep,nolistsep]
+\item \textbf{Ouverture d'esprit et volonté} : Deux projets d'étude et de travail à l'étranger (USA et Australie). Connaissance approfondie de la culture anglo-saxonne et de la langue anglaise. Habitué à sortir de ma zone de confort. Nombreux voyages
+\item \textbf{Patience, motivation, persévérence et esprit d'équipe} : des qualités acquises au cours de mes projets professionels mais aussi au travers de mes activités sportives comme le golf, la course à pied, le hockey
+\item \textbf{Curiosité} : Plaisir d'apprendre et de se confronter à la nouveauté, Formation rapide à de nouveaux concepts
+\end{itemize}
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Centres d'Intéret}
+
+%\textbf{Voyages:} Stage de fin d'étude en Australie (Perfectionnement de l'anglais professionel et technique) et
+%Voyages en Océanie (Nouvelle-Zélande, Bali, Nouvelle-Calédonie)\\
+%Semestre aux USA, visite de 9 Etats (connaissance approfondie de la langue et de la culture américaine)\\
+%Deux semaines d’immersion au Mexique et visite de plusieurs pays Européens (Irlande, Pays-Bas, Angleterre, Espagne)\\[5pt]
+%\textbf{Musique et Sports} : Piano (10 ans) et basse (5 ans) --- Golf (index 12.0) --- Championnats de France de hockey en salle\\[5pt]
+%\textbf{Technologie} : Actif sur les sites de question réponse comme stackoverflow.com et sur IRC\\
+
+
+\cfoot{\scriptsize \textcopyright Marc Allaire from a template by Adrien Friggeri --- License Creative Commons (CC BY-NC-SA 3.0)}
+
+\end{document}
